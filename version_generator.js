@@ -3,16 +3,16 @@ var path = require('path');
 var crypto = require('crypto');
 
 var manifest = {
-    packageUrl: 'http://localhost/tutorial-hot-update/remote-assets/',
-    remoteManifestUrl: 'http://localhost/tutorial-hot-update/remote-assets/project.manifest',
-    remoteVersionUrl: 'http://localhost/tutorial-hot-update/remote-assets/version.manifest',
+    packageUrl: 'http://192.168.1.10:1988/tutorial-hot-update/remote-assets/',
+    remoteManifestUrl: 'http://192.168.1.10:1988/tutorial-hot-update/remote-assets/project.manifest',
+    remoteVersionUrl: 'http://192.168.1.10:1988/tutorial-hot-update/remote-assets/version.manifest',
     version: '1.0.0',
     assets: {},
     searchPaths: []
 };
 
-var dest = './remote-assets/';
-var src = './jsb/';
+var dest = './';
+var src = './build/jsb-default/';
 
 // Parse arguments
 var i = 2;

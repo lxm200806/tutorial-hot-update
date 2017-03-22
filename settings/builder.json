@@ -13,12 +13,5 @@
   "includeSdk": [
     "anysdk"
   ],
-  "includeAnySDK": false,
-  "oauthLoginServer": "",
-  "appKey": "",
-  "appSecret": "",
-  "privateKey": "",
-  "renderMode": "0",
-  "inlineSpriteFrames": true,
-  "mergeStartScene": false
+  "includeAnySDK": false
 }
